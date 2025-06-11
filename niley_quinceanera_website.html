@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niley's Quinceañera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .countdown {
+            font-size: 24px;
+            color: #ff4081;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .rsvp-form, .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .rsvp-form input, .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .rsvp-form button, .contact-form button {
+            padding: 10px;
+            background-color: #ff4081;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Niley's Quinceañera!</h1>
+        <p>Join us in celebrating a very special day as Niley turns 15!</p>
+        <p>📅 Date: Saturday, January 17, 2026</p>
+        <p>📍 Location: [Venue Name, Houston, TX]</p>
+        <p>⏰ Time: [To Be Announced]</p>
+        <div class="countdown">
+            🎉 Let the countdown begin!
+            <!-- Countdown Timer Placeholder -->
+        </div>
+    </header>
+
+    <section>
+        <h2>About the Quinceañera</h2>
+        <p>A short bio</p>
+        <p>Favorite things</p>
+        <p>A thank-you message</p>
+    </section>
+
+    <section>
+        <h2>Event Details</h2>
+        <p>Ceremony & reception info</p>
+        <p>Dress code</p>
+        <p>Map & directions</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <p>Baby photos</p>
+        <p>Pre-event photoshoot</p>
+        <p>Upload option for guests</p>
+        <!-- Placeholder for images -->
+        <img src="baby_photo1.jpg" alt="Baby Photo 1">
+        <img src="photoshoot1.jpg" alt="Pre-event Photoshoot 1">
+    </section>
+
+    <section>
+        <h2>RSVP</h2>
+        <form class="rsvp-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="meal_preference" placeholder="Meal Preference (optional)">
+            <button type="submit">RSVP</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Gifts & Sponsorship</h2>
+        <p>Your presence is the greatest gift of all, but if you wish to honor Niley with a gift, we kindly ask for cards or cash gifts only.</p>
+        <p>This will help support her future dreams and make her celebration even more special.</p>
+        <h3>Become a Sponsor</h3>
+        <p>We are also welcoming sponsors for special items that will be part of Niley’s big day. If you’d like to contribute toward any of the following, we would be incredibly grateful:</p>
+        <ul>
+            <li>💇 Hair & Makeup</li>
+            <li>lashes</li>
+            <li>💍 Quince Ring</li>
+            <li>Bracelet</li>
+            <li>Personalized earrings (with Niley’s name)</li>
+            <li>📿 Quince Necklace</li>
+            <li>Last bear</li>
+        </ul>
+        <p>Sponsors will be recognized with love and appreciation on the day of the event and on this website (if desired).</p>
+        <p>If you're interested in sponsoring an item, please contact us at:</p>
+        <p>📧 [your-email@example.com] or 📞 [your phone number]</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
